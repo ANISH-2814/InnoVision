@@ -1,1 +1,124 @@
-Here are all requirements for the project
+Here’s a complete list of hardware, software, components, libraries, and environment setup needed for your AI-powered industrial gear inspection project:
+
+✅ 🔌 HARDWARE REQUIREMENTS
+
+      🧠 1. Raspberry Pi 4 (4GB or 8GB preferred)
+            Must run a Linux-based OS (e.g., Raspberry Pi OS or Ubuntu Lite).
+            Provides GPIO support for hardware interfacing.
+      
+      📷 2. USB Camera / Pi Camera
+            Used for capturing real-time images of objects on the conveyor.
+            Minimum 720p (you used 640x480).
+              
+      📏 3. Ultrasonic Sensor (HC-SR04)
+            Measures the distance of objects from the sensor.
+            Detects when an object is in front of the camera for analysis.
+      
+      🔄 4. 12V DC Motor
+            Drives the conveyor belt to move objects.
+      
+      ⚙️ 5. Servo Motor (SG90 or MG90S)
+            Ejects defective gears by physically pushing them off the belt.
+        
+      🧃 6. L298N Motor Driver
+            Used to control the DC motor from Raspberry Pi safely.
+      
+      ⚡ 7. 12V Power Supply (for Motor)
+            To power the DC motor and driver board.
+      
+      🧱 8. Conveyor Belt Setup
+            Small DIY or industrial-type belt for moving parts.
+      
+      🔌 9. Breadboard, Jumper Wires, Resistors
+            For connecting components safely.
+
+✅ 💻 SOFTWARE REQUIREMENTS
+
+      🐍 1. Python 3.7+
+            Core language for coding and running the logic on Raspberry Pi.
+      
+      🐧 2. Raspberry Pi OS (or Ubuntu 20.04 for ARM)
+            Lightweight Linux-based OS with support for Python, GPIO, and camera modules.
+      
+      🖼️ 3. Raspberry Pi Imager
+            Tool used to flash Raspberry Pi OS onto a microSD card.
+            Official software provided by Raspberry Pi Foundation.
+            Easy GUI to select OS version and write to card.
+            📥 Download: https://www.raspberrypi.com/software/
+      
+      🔗 4. Pi Connect
+            For remote access to the Raspberry Pi without external monitor/keyboard.
+            Use VNC or SSH to control the Pi from your PC/laptop.
+            Enables remote debugging, model testing, and live feed viewing.
+
+      ✍️ 5. Label Studio (or Roboflow / LabelImg)
+            Open-source dataset annotation tool.
+            Helps label Damaged and Correct gears manually.
+            Export in YOLOv8-compatible format.
+      
+      🧰 6. Thonny IDE
+            Simple Python IDE tailored for Raspberry Pi.
+            Recommended for writing and testing GPIO and sensor logic.
+            Lightweight and beginner-friendly.
+
+      💼 7. Anaconda (Optional for Windows/Linux)
+            Environment manager and Python distribution.
+            Helps isolate dependencies for YOLO training and labeling tools.
+            Ideal for PC-based model development or dataset preparation.
+      
+      🧠 8. Google Colab (Optional)
+            Free cloud platform with GPU/TPU support.
+            Used for:
+            Training YOLOv8 models.
+            Testing and validating custom datasets.
+            Annotating using Python-based tools.
+            No setup needed for CUDA or GPU drivers.
+
+✅ 💻 PYTHON LIBRARIES USED
+      
+      Install the following using pip:
+      pip install opencv-python
+      pip install ultralytics
+      
+      🔌 1. RPi.GPIO
+            Control GPIO pins: Ultrasonic sensor, Servo, and DC Motor.
+      
+      📷 2. OpenCV
+            Real-time camera feed capture and visualization.
+            Annotate predictions, draw bounding boxes, labels, etc.
+      
+      🧠 3. Ultralytics
+            YOLOv8 object detection framework.
+            Loads best.pt model and performs inference on gear images.
+      
+      ⏲️ 4. time
+            Controls wait delays, servo stabilization, and time-based automation.
+      
+      📁 YOLOv8 MODEL FILE
+      
+      File Used: best.pt
+      Model classes:
+      0 → Damaged gear
+      1 → Correct gear
+      How to Get It:
+      Train your dataset using Ultralytics YOLOv8 (on Google Colab or local).
+      Export weights as best.pt.
+      Place best.pt in the same directory as your Python code on the Pi.
+      
+      ⚙️ TRAINING ENVIRONMENT FOR YOLOv8
+      
+      If you plan to retrain your model:
+      
+      ✅ Recommended Tools:
+      
+      Google Colab (for training with GPU)
+      Thonny or Anaconda (for local experimentation)
+      Label Studio / Roboflow (for annotation)
+      🔧 Setup:
+      Python 3.10+
+      ultralytics installed:
+      pip install ultralytics
+      Dataset structured with:
+      images/train
+      images/val
+      data.yaml
