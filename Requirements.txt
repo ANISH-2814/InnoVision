@@ -104,21 +104,3 @@ Here’s a complete list of hardware, software, components, libraries, and envir
       Train your dataset using Ultralytics YOLOv8 (on Google Colab or local).
       Export weights as best.pt.
       Place best.pt in the same directory as your Python code on the Pi.
-      
-      ⚙️ TRAINING ENVIRONMENT FOR YOLOv8
-      
-      If you plan to retrain your model:
-      
-      ✅ Recommended Tools:
-      
-      Google Colab (for training with GPU)
-      Thonny or Anaconda (for local experimentation)
-      Label Studio / Roboflow (for annotation)
-      🔧 Setup:
-      Python 3.10+
-      ultralytics installed:
-      pip install ultralytics
-      Dataset structured with:
-      images/train
-      images/val
-      data.yaml
