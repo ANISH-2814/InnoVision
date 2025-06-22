@@ -1,0 +1,29 @@
+1. Mohandas, R., Southern, M., O’Connell, E., & Hayes, M. (2024). A Survey of incremental deep learning for defect detection in manufacturing. Big Data and Cognitive Computing, 8(1), 7.
+
+2. Chen, Y., Ding, Y., Zhao, F., Zhang, E., Wu, Z., & Shao, L. (2021). Surface defect detection methods for industrial products: A review. Applied Sciences, 11(16), 7657.
+
+3.Czimmermann, T., Ciuti, G., Milazzo, M., Chiurazzi, M., Roccella, S., Oddo, C. M., & Dario, P. (2020). Visual-based defect detection and classification approaches for industrial applications—a survey. Sensors, 20(5), 1459.
+
+4. Tulbure, A. A., Tulbure, A. A., & Dulf, E. H. (2022). A review on modern defect detection models using DCNNs–Deep convolutional neural networks. Journal of Advanced Research, 35, 33-48.
+
+5.Ren, Z., Fang, F., Yan, N., & Wu, Y. (2022). State of the art in defect detection based on machine vision. International Journal of Precision Engineering and Manufacturing-Green Technology, 9(2), 661-691.
+
+6.Paraskevoudis, K., Karayannis, P., & Koumoulos, E. P. (2020). Real-time 3D printing remote defect detection (stringing) with computer vision and artificial intelligence. Processes, 8(11), 1464.
+
+7.Yang, J., Li, S., Wang, Z., Dong, H., Wang, J., & Tang, S. (2020). Using deep learning to detect defects in manufacturing: a comprehensive survey and current challenges. Materials, 13(24), 5755.
+
+8. Tang, B., Chen, L., Sun, W., & Lin, Z. K. (2023). Review of surface defect detection of steel products based on machine vision. IET Image Processing, 17(2), 303-322.
+
+9.Rai, R., Tiwari, M. K., Ivanov, D., & Dolgui, A. (2021). Machine learning in manufacturing and industry 4.0 applications. International Journal of Production Research, 59(16), 4773-4778.
+
+10. Hussain, M. (2023). YOLO-v1 to YOLO-v8, the rise of YOLO and its complementary nature toward digital manufacturing and industrial defect detection. Machines, 11(7), 677.
+
+11. Benbarrad, T., Salhaoui, M., Kenitar, S. B., & Arioua, M. (2021). Intelligent machine vision model for defective product inspection based on machine learning. Journal of Sensor and Actuator Networks, 10(1), 7.
+
+12.Wan, P. K., & Leirmo, T. L. (2023). Human-centric zero-defect manufacturing: State-of-the-art review, perspectives, and challenges. Computers in Industry, 144, 103792.
+
+13.Westphal, E., & Seitz, H. (2021). A machine learning method for defect detection and visualization in selective laser sintering based on convolutional neural networks. Additive Manufacturing, 41, 101965.
+
+14.Bhatt, P. M., Malhan, R. K., Rajendran, P., Shah, B. C., Thakar, S., Yoon, Y. J., & Gupta, S. K. (2021). Image-based surface defect detection using deep learning: A review. Journal of Computing and Information Science in Engineering, 21(4), 040801.
+
+15.Baumgartl, H., Tomas, J., Buettner, R., & Merkel, M. (2020). A deep learning-based model for defect detection in laser-powder bed fusion using in-situ thermographic monitoring. Progress in Additive Manufacturing, 5(3), 277-285.
