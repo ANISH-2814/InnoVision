@@ -6,13 +6,6 @@ An end-to-end automated quality inspection system using **YOLOv8**, **Python**, 
 
 ---
 
-## 📸 Demo
-
-![System Demo](media/demo.gif)  
-> *(Defected Product (Gear) detection and automatic ejection demonstration)*
-
----
-
 ## 🚀 Features
 
 - 🔍 Real-time object detection and defect classification using YOLOv8
@@ -62,6 +55,13 @@ An end-to-end automated quality inspection system using **YOLOv8**, **Python**, 
 - **OpenCV**
 - **GPIO Zero / RPi.GPIO**
 - **Linux (Raspberry Pi OS)**
+
+---
+
+## 📸 Demo
+
+![System Demo](media/demo.gif)  
+> *(Defected Product (Gear) detection and automatic ejection demonstration)*
 
 ---
 
